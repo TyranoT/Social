@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(to left,#000814,#001D3D,#003566);
+    background-image: linear-gradient(to top,#000814,#001D3D,#003566 100%);
+    height: 100vh;
 }
 
 main {
@@ -30,6 +31,23 @@ p {
     text-align: justify;
 }
 
-ul {
-    text-align: left;
+.lista {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    width: 87%;
+    justify-content: space-around;
+}
+
+.lista a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    transition: transform .3s;
+}
+
+li:hover{
+    transform: scale(1.3);
 }
