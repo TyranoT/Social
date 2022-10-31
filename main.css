@@ -8,14 +8,17 @@ main {
     background-image: linear-gradient(to right, #FFC300,#FFD60A);
     box-shadow:0px 0px 15px white;
     border-radius: 15px;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     width:750px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 h1 {
     color:black;
     text-align: center;
+    text-shadow: 1px 1px 2px black;
 }
 
 h2 {
